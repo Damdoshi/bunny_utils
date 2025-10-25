@@ -1,0 +1,13 @@
+Source: liblapin-utils
+Priority: optional
+Maintainer: technocore <technocore@technocore>
+Build-Depends: debhelper-compat (= 13), liblapin-dev
+Standards-Version: 4.6.2
+
+Package: liblapin-utils
+Section: libdevel
+Architecture: all
+Depends: ${misc:Depends}
+Description: Utils from LibLapin: mergeconf, fetchconf,
+ joypanel and maybe more later.
+ 

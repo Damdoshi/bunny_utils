@@ -1,0 +1,5 @@
+fetchconf/fetchconf usr/bin
+mergeconf/mergeconf usr/bin
+joypanel/joypanelp opt/joypanel/
+joypanel/*.* opt/joypanel/
+joypanel/joypanel usr/bin
