@@ -21,11 +21,13 @@ static t_bunny_anonymous_context context =
     .connect = joypanel_joy_connect,
   };
 
-int				main(void)
+int				main(int argc, char **argv)
 {
   static t_program		program;
   t_bunny_response		response;
 
+  (void)argv;
+  bunny_join_binary_directory(argv[0]);
   if (!(program.joystick = bunny_malloc(sizeof(*program.joystick) * LAST_BUNNY_JOYSTICK)))
     {
       bunny_printlerr("Cannot reserve space for joysticks.");

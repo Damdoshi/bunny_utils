@@ -1,5 +1,9 @@
 fetchconf/fetchconf usr/bin
 mergeconf/mergeconf usr/bin
+
 joypanel/joypanelp opt/joypanel/
-joypanel/*.* opt/joypanel/
+joypanel/label.ini opt/joypanel/
+joypanel/text.ini opt/joypanel/
+joypanel/title.ini opt/joypanel/
+joypanel/font.ttf opt/joypanel/
 joypanel/joypanel usr/bin
